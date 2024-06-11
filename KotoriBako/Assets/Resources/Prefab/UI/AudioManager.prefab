@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &570497645129338680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 570497645129338683}
+  - component: {fileID: 570497645129338682}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &570497645129338683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570497645129338680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &570497645129338682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570497645129338680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ccba49a7887e04cb306070fcec0559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: type_Sound
+    clip: {fileID: 8300000, guid: 5301ee3134537a84394f1509b2d58272, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: enter_Sound
+    clip: {fileID: 8300000, guid: 2b9546b3439060d4da26044548dbe5be, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: cancel_Sound
+    clip: {fileID: 8300000, guid: e1836cd1b25e88f4ebb13b1e77cc5b0f, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: correct_Sound
+    clip: {fileID: 8300000, guid: f1ff2e4be77d1104f873afb8c526ea82, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: fail_Sound
+    clip: {fileID: 8300000, guid: 242955859a965c84c9ac29d5fd8e79da, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: corridor_Sound1
+    clip: {fileID: 8300000, guid: 80b954e9df0b4794fae8fab8571e300d, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: corridor_Sound2
+    clip: {fileID: 8300000, guid: 30f4ed5e310c45243a3dfd7670166a87, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: openDoor_Sound
+    clip: {fileID: 8300000, guid: f9f0de4b861de2c42b1e4a531b005f0d, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: drawers_Sound
+    clip: {fileID: 8300000, guid: 865abbfbdf568744aac0561b976759d8, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: serach_Sound
+    clip: {fileID: 8300000, guid: 6dc99ac981d1e2b4aa883ba3d5c41788, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: boxShake_Sound
+    clip: {fileID: 8300000, guid: d0c07e8f8c4569b4d9e53c5fd52129ae, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: openBox_Sound
+    clip: {fileID: 8300000, guid: 9dbbe4cbf4cef9345bad119cdff79e15, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: ghost_Sound
+    clip: {fileID: 8300000, guid: f0cef83f90a6c504392a7d5fba1ae03f, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: fallBook_Sound
+    clip: {fileID: 8300000, guid: 65ba5df4259b6774b8a5d0648a32b34a, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: page_Sound
+    clip: {fileID: 8300000, guid: b734c2de4deeaa84ebe7e507da47a6cf, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: get_Sound
+    clip: {fileID: 8300000, guid: d8f0b7fb7c3feb44f882c88fff05211c, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: ghostLaugh_Sound
+    clip: {fileID: 8300000, guid: d767f4aaa73b6574a82efbc26cb54a50, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: run_Sound
+    clip: {fileID: 8300000, guid: 0af11514f46b0bf49ac6c1b5ea0a7c4a, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: damage_Sound
+    clip: {fileID: 8300000, guid: f1eddc62e19e7754f810bcad7ebc8cb6, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: gameOver1_Sound
+    clip: {fileID: 8300000, guid: 42876f3619f10e34e949e8fb92a2bfe3, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: gameOver2_Sound
+    clip: {fileID: 8300000, guid: 95298dbaf849f464fa39da2528c369df, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: washMachin_Sound
+    clip: {fileID: 8300000, guid: 985e8fa3af0ad4442acb48e050bb5146, type: 3}
+    Volumn: 1
+    loop: 1
+  - name: washing_Sound
+    clip: {fileID: 8300000, guid: 5eec60483a4c58e4fb49710a353bb696, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: footprint_Sound
+    clip: {fileID: 8300000, guid: 0351415a0c466a64dac9058c56007d82, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: bloodWater_Sound
+    clip: {fileID: 8300000, guid: 014256248a372a74a93ad9c86fa83132, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: waterOut_Sound
+    clip: {fileID: 8300000, guid: 94289808436952845aa089fb42cc7041, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: stop_Sound
+    clip: {fileID: 8300000, guid: 06bbececfad9f86498a784415a039025, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: rumbling_Sound
+    clip: {fileID: 8300000, guid: 99c6be805c4d9ce4d8be23b2ba2d2d4c, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: break_Sound
+    clip: {fileID: 8300000, guid: 76b32d6ecebcb0e428bbcf1584397a08, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: grass_Sound
+    clip: {fileID: 8300000, guid: a690188df18f8384ab8c50c23a639c3a, type: 3}
+    Volumn: 1
+    loop: 0

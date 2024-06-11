@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ghost
+  - Grass
+  - Wood
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - NoPassing
+  - Water
+  - UI
+  - MiniGame
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: TileMap
+    uniqueID: 278959125
+    locked: 0
+  - name: BackProp
+    uniqueID: 2958118977
+    locked: 0
+  - name: Player
+    uniqueID: 3598500895
+    locked: 0
+  - name: FrontProp
+    uniqueID: 722237365
+    locked: 0
+  - name: Effect
+    uniqueID: 2584978683
+    locked: 0
+  - name: UI
+    uniqueID: 2829031165
+    locked: 0
